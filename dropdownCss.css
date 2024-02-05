@@ -1,0 +1,29 @@
+.navbutton{
+    background-color: lawngreen;
+    padding: 10px;
+    width: 55px;
+    text-align: center;
+    display: inline-block;
+    /* position: relative; */
+}
+
+.dropdown{
+    display: none;
+    position: absolute;
+    margin-top: 20px;
+    /* z-index: 99; */
+}
+
+
+.navbutton:hover .dropdown {
+    display: block;
+}
+
+.dropdown .item{
+    background-color: aquamarine;
+    padding: 20px;
+}
+
+.dropdown .item:hover {
+    background-color: chartreuse;
+}

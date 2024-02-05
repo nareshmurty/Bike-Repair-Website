@@ -1,0 +1,247 @@
+/* fonts.google.com */
+html {
+    background-image: linear-gradient(#FC5E55,#FA4083);
+
+}
+
+body {
+    /* background-color: #FC5E55; */
+    background-image: url(images/image-lion-background.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 1rem;
+
+}
+.container {
+
+    
+    width: 1024px;
+    min-height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+header {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    border-bottom: 1px solid lightgray;
+
+}
+main {
+    /* min-height: 220px; */
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+}
+.main2 {
+    min-height: 500px;
+    padding-top: 40px;
+}
+
+
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding-top: 40px;
+
+    
+}
+.card1 {
+    background-image: url(images/image-background-card1.jpg);
+    background-size: cover;
+    background-position: bottom;
+    min-height: 250px;
+    width: 30%;
+
+}
+
+.card2 {
+    background-image: url(images/image-background-card2.jpg);
+    background-size: cover;
+    background-position: bottom;
+    min-height: 250px;
+    width: 30%;
+
+
+}
+
+.card3 {
+    background-image: url(images/image-background-card3.jpg);
+    background-size: cover;
+    background-position: bottom;
+    min-height: 250px;
+    width: 30%;
+
+
+}
+
+.herobox1 {
+    flex: 2;
+}
+.herobox2 {
+    flex: 1;
+    margin-left: 30px;
+    padding-left: 40px;
+}
+
+h1 {
+    font-size: 3.6rem;
+    margin-bottom: 1rem;
+}
+h2 {
+    font-size: 2.3rem;
+    /* margin-bottom: 1rem; */
+
+}
+
+p {
+    line-height: 1.5rem;
+    margin-bottom: .5rem;
+}
+
+.cards p {
+    font-size: .90rem;
+    line-height: 1.5rem;
+}
+
+.card1,.card2,.card3 {
+
+    padding: 20px 30px 10px 30px;
+    box-sizing: border-box;
+
+}
+.cards i {
+    font-size: 70px;
+    padding-top: 30px ;
+
+}
+
+.cards a {
+    color: white;
+    text-decoration: none;
+}
+
+.mybutton {
+    background-color: white;
+    color: #FC5E55;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    display: inline-block;
+    padding: 15px 18px 15px 18px;
+    margin-top: 10px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 2px #FC5E55; 
+    /* x,y, blurr */
+}
+
+/* pseudo classes */
+.mybutton:hover {
+    background-color: blue;
+    transition-duration: 1s;
+
+}
+
+
+.navbutton{
+    font-family: 'Roboto', sans-serif;
+    /* background-color: #FC5E55;   */
+    font-size: 14px;
+    padding: 15px;
+    margin: 0px;
+    border: 1px solid white;
+    display: inline-block;
+    position: relative;
+
+
+}
+
+.navbutton a {
+    color: white;
+    text-decoration: none;
+
+}
+
+.dropdown {
+    display: none;
+    position: absolute;
+    padding: 20px;
+    width: 90px;
+    z-index: 1;
+    width: 100px;
+    text-align: center;
+}
+
+.navbutton:hover .dropdown {
+    display: block;
+}
+
+
+
+
+
+.testimonial{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.tbox {
+
+    width: 450px;
+    height: 200px;
+    padding: 40px;
+    border: 1px solid white;
+    box-sizing: border-box;
+    margin-top: 50px;
+
+}
+
+.inputwrapper {
+    margin-bottom: 14px;
+}
+
+input[type=text],input[type=email] {
+
+    padding: 12px 1px;
+    width: 80%;
+    height: 26px;
+    font-family: 'Roboto', sans-serif;
+    font-size: .85rem;
+    box-sizing: border-box;
+}
+.inputwrapper textarea {
+
+    box-sizing: border-box;
+    width: 80%;
+    font-family: 'Roboto', sans-serif;
+    font-size: .85rem;
+
+}
+
+.newline {
+
+    display: block;
+    padding-bottom: 8px;
+} 
+
+form {
+
+    margin: 20px 30px 10px 5px;
+}
+
+#submit {
+    padding: 10px 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    border-radius: 2px;
+}
+
